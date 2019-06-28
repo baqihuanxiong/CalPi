@@ -1,0 +1,6 @@
+{
+  "HostName": "",
+  "grpcAddr": "127.0.0.1:8989",
+  "redisAddr": "192.168.44.129:6379",
+  "GOMAXPROCS": 0
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package rcmsg;
+
+service Calculator {
+    rpc MonteCarlo(CalRequest) returns (CalReply) {}
+}
+
+message CalRequest {
+    int64 id = 1;
+    int64 darts = 2;
+    int64 timestamp = 3;
+}
+
+message CalReply {
+    int64 id = 1;
+    int64 timestamp = 2;
+}
