@@ -1,6 +1,6 @@
 {
   "hostName": "",
-  "grpcAddr": "127.0.0.1:8989",
+  "grpcAddr": "0.0.0.0:8989",
   "redisAddr": "192.168.2.200:32033",
   "GOMAXPROCS": 0,
   "TASKCHANLENGTH": 1024
